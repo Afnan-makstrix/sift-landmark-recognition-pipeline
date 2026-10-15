@@ -16,29 +16,9 @@
 
 An automated tourism landmark recognition and geometric verification system designed with Python and OpenCV:
 
-```
-[ Tourist Query Image ]
-         |
-         v
-[ SIFT Feature Detector ] -----> 128-D Scale & Rotation Invariant Descriptors
-         |
-         v
-[ Brute-Force KNN (k=2) ] -----> Lowe's Ratio Test (0.75)
-         |
-         v
-[ Candidate Ranking ]     -----> Threshold Gate (>= 20 Matches & Margin Check)
-         |
-         +----------------------------+
-         | (Passed)                   | (Failed)
-         v                            v
-[ RANSAC Homography ]          [ REJECT / UNKNOWN ]
-         |
-         v
-[ Convexity & Area Check ]
-         |
-         v
-[ Draw Bounding Polygon & Telemetry ]
-```
+<p align="center">
+  <img src="figures/pipeline_architecture.png" alt="SIFT Landmark Recognition Architecture" width="100%" />
+</p>
 
 ---
 
