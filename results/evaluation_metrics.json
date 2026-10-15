@@ -1,0 +1,62 @@
+[
+    {
+        "Condition": "Original Image",
+        "Ground_Truth": "eiffel_tower",
+        "Predicted_Landmark": "eiffel_tower",
+        "Query_Keypoints": 2946,
+        "Reliable_Matches": 2946,
+        "RANSAC_Inliers": 2946,
+        "Decision": "RECOGNIZED",
+        "Processing_Time_ms": 908.96
+    },
+    {
+        "Condition": "Rotated Image (45 deg)",
+        "Ground_Truth": "eiffel_tower",
+        "Predicted_Landmark": "eiffel_tower",
+        "Query_Keypoints": 2517,
+        "Reliable_Matches": 1234,
+        "RANSAC_Inliers": 1227,
+        "Decision": "RECOGNIZED",
+        "Processing_Time_ms": 808.24
+    },
+    {
+        "Condition": "Resized Image (0.5x Scale)",
+        "Ground_Truth": "eiffel_tower",
+        "Predicted_Landmark": "eiffel_tower",
+        "Query_Keypoints": 672,
+        "Reliable_Matches": 509,
+        "RANSAC_Inliers": 508,
+        "Decision": "RECOGNIZED",
+        "Processing_Time_ms": 263.22
+    },
+    {
+        "Condition": "Reduced Brightness (0.35x)",
+        "Ground_Truth": "eiffel_tower",
+        "Predicted_Landmark": "eiffel_tower",
+        "Query_Keypoints": 760,
+        "Reliable_Matches": 718,
+        "RANSAC_Inliers": 717,
+        "Decision": "RECOGNIZED",
+        "Processing_Time_ms": 315.89
+    },
+    {
+        "Condition": "Different Viewpoint",
+        "Ground_Truth": "eiffel_tower",
+        "Predicted_Landmark": "eiffel_tower",
+        "Query_Keypoints": 1020,
+        "Reliable_Matches": 1020,
+        "RANSAC_Inliers": 1020,
+        "Decision": "RECOGNIZED",
+        "Processing_Time_ms": 336.25
+    },
+    {
+        "Condition": "Non-Database Landmark",
+        "Ground_Truth": "unknown",
+        "Predicted_Landmark": "Unknown / Rejected",
+        "Query_Keypoints": 1984,
+        "Reliable_Matches": 22,
+        "RANSAC_Inliers": 0,
+        "Decision": "REJECTED",
+        "Processing_Time_ms": 644.27
+    }
+]

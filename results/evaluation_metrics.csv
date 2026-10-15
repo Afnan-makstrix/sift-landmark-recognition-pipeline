@@ -1,0 +1,7 @@
+Condition,Ground_Truth,Predicted_Landmark,Query_Keypoints,Reliable_Matches,RANSAC_Inliers,Decision,Processing_Time_ms
+Original Image,eiffel_tower,eiffel_tower,2946,2946,2946,RECOGNIZED,908.96
+Rotated Image (45 deg),eiffel_tower,eiffel_tower,2517,1234,1227,RECOGNIZED,808.24
+Resized Image (0.5x Scale),eiffel_tower,eiffel_tower,672,509,508,RECOGNIZED,263.22
+Reduced Brightness (0.35x),eiffel_tower,eiffel_tower,760,718,717,RECOGNIZED,315.89
+Different Viewpoint,eiffel_tower,eiffel_tower,1020,1020,1020,RECOGNIZED,336.25
+Non-Database Landmark,unknown,Unknown / Rejected,1984,22,0,REJECTED,644.27
